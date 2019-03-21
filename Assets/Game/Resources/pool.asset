@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7119c95a353b1941b5c394e3ca69977, type: 3}
+  m_Name: pool
+  m_EditorClassIdentifier: 
+  PoolList:
+  - Name: ClickMove
+    Prefab: {fileID: 119942, guid: 3e7f3847f1c8fcd43b97b10df7a3d76a, type: 2}
+    MaxCount: 2
+  - Name: atkTurrent
+    Prefab: {fileID: 1072624141192160, guid: e036b98c2b6589642a72ce1f55c6c96d, type: 2}
+    MaxCount: 10
+  - Name: E
+    Prefab: {fileID: 1975177508492934, guid: 105b1d7ea966d6d4ea4948d6d7e038f7, type: 2}
+    MaxCount: 2
+  - Name: Dog
+    Prefab: {fileID: 1406959262581140, guid: 3ee62468925d2094f8a94cfd5d805617, type: 2}
+    MaxCount: 20
